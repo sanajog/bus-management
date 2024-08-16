@@ -5,10 +5,12 @@ const {
   Login,
  
   UpdatePassword,
+  ResetPassword,
 } = require("../Controllers/authController");
 
 router.post("/create-user", CreateUser);
 router.post("/login", Login);
+router.post("/requestPasswordReset", ResetPassword);
 
 router.post("/resetPassword/:userId/:resetString", UpdatePassword);
 
