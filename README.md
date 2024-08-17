@@ -25,7 +25,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/bus-route-booking.git
+git clone git@github.com:sanajog/bus-management.git
 cd bus-route-booking
 Install dependencies:
 
